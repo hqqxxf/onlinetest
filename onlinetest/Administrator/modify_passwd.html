@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>修改密码</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<form id="Register" method="post" action="modify_passwd.php" onSubmit="return InputCheck(this)">
+    <h1>Modify</h1>
+    <fieldset id="inputs">
+        <input id="username" name="adminname"  type="text" placeholder="管理员名" autofocus required>   
+        <input id="password" name="adminpassword" type="password" placeholder="当前密码" required>
+		 <input id="passwd_new" name="passwd_new" type="password" placeholder="修改后的密码（不少于6位）" required>
+    </fieldset>
+    <fieldset id="actions">
+        <input type="submit" name="submit" id="submit" value="Modify">
+       <a href="login.html">Log In</a>
+    </fieldset>
+</form>
+<br><br>
+</body>
+</html>

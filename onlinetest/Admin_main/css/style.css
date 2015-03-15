@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0;}
+ul{list-style-type:none;}
+a{text-decoration:none; color:black;}
+.header{
+	width:100%;
+	height:30px;
+	background:#E8E8E8;
+	font-size:12px;
+}
+.main_header{
+	width:200px;
+	height:26px;
+	float:right;
+	text-align:center;
+	padding-top:5px;
+	padding-right:150px;
+}
+.main_header a:link,a:visited{
+	color:#000;
+}
+.main_header a:hover{
+	color:#39F;
+}
+.main_header span{
+	padding:0 5px 0 5px;
+}
+.logo{
+	clear:both;
+	width:100%;
+	height:50px;
+}
+.logo_main{
+	width:1000px;
+	height:50px;
+	margin:0 auto;
+}
+.logo_main img{
+	width:50px;
+	height:50px;
+	float:left;
+}
+.logo_main .logo_content{
+	width:300px;
+	height:50px;
+	font-size:24px;
+	text-align:center;
+	line-height:50px;
+	font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+	font-weight: bold;
+
+}
+
+
+#nav{
+	width:100%;
+	height:40px;
+	background:#39F;
+	font-size:20px;
+}
+#nav .nav_menu{
+	width:1000px;
+	height:40px;
+	margin:0 auto;
+}
+
+#nav .menu{
+	width:150px;
+	position:relative;
+	float:left;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+}
+#nav .menu_a{
+	width:150px;
+	height:40px;
+	display:block;
+	line-height:40px;
+	color:white;
+	background:#39F;
+}
+
+#nav .menu .ul0{
+	width:100%;
+	display:none;
+	font-size:14px;
+	line-height:34px;
+	height:272px;
+	border-left:#09F 1px solid;
+	border-right:#09F 1px solid;
+	border-bottom:#09F 1px solid;
+	background:#06C;
+	position:absolute;
+}
+
+#banner{
+	clear:both;
+	width:100%;
+	height:300px;
+}
+#banner img{
+	width:1000px;
+	height:300px;
+	display:block;
+	margin:0 auto;
+}
+.content_main{
+	width:100%;
+	margin:0;
+}
+.content{
+	width:1000px;
+	margin:0 auto;
+}
+.hot_test{
+	width:700px;
+	height:290px;
+	border:#E8E8E8 1px solid;
+	float:left;
+	margin:10px 0px 0px 0px;
+	position:relative;
+}
+.title h3{
+	width:100%;
+	height:38px;
+	background:#39F;
+	font-size:24px;
+	line-height:38px;
+	margin-bottom:10px;
+}
+.test ul,.res ul{
+	width:100%;
+	height:240px;
+	display:block;
+	font-size:16px;
+	line-height:30px;
+	border-left:#E8E8E8 1px solid;
+	border-right:#E8E8E8 1px solid;
+}
+
+.hot_res{
+	width:260px;
+	height:290px;
+	border:#E8E8E8 1px solid;
+	float:right;
+	margin:10px 0px 0px 10px;
+	position:relative;
+}
+.test ul li,.res ul li{
+	width:100%;
+	height:30px;
+}
+.footer{
+	width:100%;
+	height:30px;
+	clear:both;
+	background:black;
+	font-size:12px;
+	color:white;
+	text-align:center;
+	line-height:30px;
+	margin-top:50px;
+	padding:5px 0 5px 0;
+}

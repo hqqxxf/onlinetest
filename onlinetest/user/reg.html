@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>用户注册</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+  
+
+</head>
+
+<body>
+
+<form id="Register" method="post" action="reg.php" onSubmit="return InputCheck(this)">
+    <h1>Register</h1>
+    <fieldset id="inputs">
+        <input id="username" name="username"  type="text" placeholder="Username  （3-15字符长度，支持汉字、字母、数字及_）" autofocus required>   
+        <input id="password" name="password" type="password" placeholder="Password  (不少于6位)" required>
+		 <input id="email" name="email" type="text" placeholder="Email" required>
+    </fieldset>
+    <fieldset id="actions">
+        <input type="submit" name="submit" id="submit" value="Register">
+       <a href="login.html">Log In</a>
+    </fieldset>
+</form>
+<br><br>
+
+</body>
+</html>
+
+
